@@ -70,7 +70,7 @@ form{
 .footer{
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    width:fit-content;
     margin-top: 5%;
     /* margin-bottom: 5%; */
 }
@@ -117,4 +117,12 @@ label{
     position: absolute;
     top: 1vh;
     left: 15vw;
+}
+
+.footer a{
+    color:burlywood;
+}
+
+button :hover{
+    color: black;
 }
