@@ -10,44 +10,66 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./reset.css">
+
     <link rel="stylesheet" href="./styles.css">
     <title>Sign-Up Form</title>
 </head>
 <body>
 
-    <div class="container">
-
         <div class="image">
-            <img src="./Images/andrea-de-santis-K7z32hBc8wM-unsplash.jpg">
+            <div id="logo">
+                <img src="./Images/odin-lined.png"> 
+                <h1>ODIN</h1>
+            </div>
         </div>
 
-    <div class="rightHero">
+        <div class="full_form">
+            <div class="para">
+                <h1>This is not a real online service! You know you need something like this in your life to help you realize your 
+                deepest dreams. Sign up now to get started. <br><br>You know you want to.</h1>
+            </div>
 
-        <div class="para">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your 
-            deepest dreams. </p>
-            <p>Sign up now to get started. You know you want to.</p>
-        </div>
+            <div class="form">
+                <form action="" method="post" autocomplete="on">
+                    <label for="first_name">First Name:</label>
+                    <input type="text" autofocus  placeholder="John" required>
 
-        
+                    <label for="last_name">Last Name:</label>
+                    <input type="text" placeholder="Cena" required>
+                                   
+                </form>
+            </div>
 
-        <div class="form">
-            <form action="" method="post">
-                <label for="first_name">First Name:</label>
-                <input type="text" autofocus required>
-                <label for="last_name">Last Name:</label>
-                <input type="text" required>
-                <label for="contact_no">Contact No:</label>
-                <input type="tel" required>
-                <label for="email">Email:</label>
-                <input type="email" required>
-                <label for="password">Password:</label>
-                <input type="text" required>
-                <label for="password">Confirm Password:</label>
-                <input type="text" required>
-            </form>
-        </div>
-    </div>
+            <div class="form1" autocomplete="on">
+                <form action="" method="post">
+                    <label for="contact_no">Contact No:</label>
+                    <input type="tel"  required>   
+
+                    <label for="email">Email:</label>
+                    <input type="email" required>                                    
+                </form>
+            </div>
+
+                
+                <div class="form2" autocomplete="on">
+                    <form action="" method="post">
+                        <label for="password">Password:</label>
+                        <input type="password"  required>
+
+                        <label for="password">Confirm Password:</label>
+                        <input type="password" required>                                     
+                    </form>
+
+                </div>
+
+            <div class="footer">
+                <button type="button" class="btn btn-outline-warning">Create Account</button>
+                <h1>Already have an account? <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"  target="_blank">LOG IN</a> </h1>
+            </div>
+        </div> 
+    
         
     </div>
 
